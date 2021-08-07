@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.middleTags{
+    padding: 10px 10px;
+    background-color: #dfe6f8;
+}
+.middleTags ul li{
+    color: rgba(0, 0, 0, 0.637);
+    font-weight: bolder;
+    padding: 7px;
+    flex-direction: row;
+}
+.middleTags ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* options styling */
+.optionImg img {
+    width :80px;
+}
+.optionImg li{
+    font-size: 15px;
+}
+.options ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+/* middle cards */
+.middleCards h1{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+.cardContainer{
+    width: fit-content;
+    padding: 5px;
+}
+.cardContainer img {
+    height: 280px;
+}
+.CardsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.button{
+    font-size: 14px;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px 35px;
+}
+.stars i{
+    color: yellow;
+}
+/* bottom cards styling */
+.bottomCard{
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+}
+.bottomCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.bottomCard img{
+    height: 360px;
+    width: 230px;
+}
+@media screen and (max-width: 425px) {
+    .middleTags ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .slider{
+        margin-top: 10px;
+    }
+    .optionImg{
+        margin: 3px;
+    }
+    .optionImg img {
+      width :50px;
+  }
+  .optionImg li{
+      font-size: 12px;
+  }
+  .cardContainer img {
+    height: 220px;
+}
+  /* bottom cards styling */
+  .bottomCards h5{
+      font-size: 10px;
+  }
+.bottomCard{
+    padding: 2px;
+    margin: 2px;
+}
+.bottomCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.bottomCard img{
+    height: 170px;
+    width: 110px;
+}
+  }
+
+  @media screen and (max-width: 768px) {
+    .middleTags ul{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .slider{
+        margin-top: 10px;
+    }
+    .optionImg{
+        margin: 5px;
+    }
+    .optionImg img {
+      width :70px;
+  }
+  .optionImg li{
+      font-size: 14px;
+  }
+  /* bottom cards styling */
+  .bottomCards h5{
+    font-size: 10px;
+}
+.bottomCard{
+  padding: 2px;
+  margin: 2px;
+}
+.bottomCards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.bottomCard img{
+  height: 200px;
+  width: 150px;
+}
+.cardContainer{
+    width: fit-content;
+    padding: 5px;
+}
+.CardsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  }
+
+
+
+
+
